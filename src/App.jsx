@@ -54,10 +54,10 @@ function App() {
   return (
     <>
       <div className="mx-auto">
-        <h1 className="text-center">Tic Tac Toe</h1>
+        <h1 className="text-center pt-5">Tic Tac Toe</h1>
       </div>
 
-      <div className="bg-slate-400 max-w-[350px] p-10 m-auto mt-10 w-2/3 rounded-3xl">
+      <div className="bg-slate-400 min-w-[340px] max-w-[380px] p-10 m-auto mt-10 w-2/3 rounded-3xl">
         {win || draw ? (
           ""
         ) : (
